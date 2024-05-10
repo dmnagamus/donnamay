@@ -1,0 +1,78 @@
+
+    /* General styles */
+    body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: lightslategray;
+        color: #333;
+    }
+
+    /* Header styles */
+    header {
+        background-color: darkcyan;
+        color:white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    header img {
+        border-radius: 50%;
+        width: 150px; /* Adjust size as needed */
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    /* Main section styles */
+    section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2em;
+        background-color: black;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    h1, h2, p {
+        color: white;
+    }
+
+    /* Button styles */
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: white;
+        color: blue;
+        text-decoration: none;
+        border-style: double;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: lightskyblue;
+    }
+
+    /* Certificate styles */
+    .certificate {
+        margin-bottom: 10px;
+    }
+    .certificate img {
+        width: 100%; /* Ensure all images have the same width */
+        height: auto;
+        border-radius: 8px; /* Optional: Add border radius for a rounded look */
+    }
+
+
+    /* Footer styles */
+    footer {
+        text-align: center;
+        padding: 1em 0;
+        background-color: #333;
+        color: #fff;
+        
+    }
